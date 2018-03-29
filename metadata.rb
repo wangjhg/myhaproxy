@@ -6,6 +6,8 @@ description 'Installs/Configures myhaproxy'
 long_description 'Installs/Configures myhaproxy'
 version '0.1.0'
 
+depends 'haproxy', '~> 3.0.0'
+
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
 # uploaded to a Supermarket.
